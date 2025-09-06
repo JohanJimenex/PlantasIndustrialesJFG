@@ -35,7 +35,6 @@ safeSetText(byId('rnc'), CONFIG.rnc || '—');
 
 safeSetHTML($('#ui-phone'), `Tel: ${CONFIG.phoneDisplay || '<i>Completar</i>'}`);
 safeSetHTML($('#ui-email'), `Email: ${CONFIG.email ? `<a href="mailto:${CONFIG.email}">${CONFIG.email}</a>` : '<i>Completar</i>'}`);
-safeSetHTML($('#ui-address'), `Dirección: ${CONFIG.address || '<i>Completar</i>'}`);
 
 // Instagram (header y card)
 const igUrl = CONFIG.instagramUrl || '#';
