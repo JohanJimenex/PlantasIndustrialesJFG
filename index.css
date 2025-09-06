@@ -535,3 +535,34 @@ footer .row {
         font-size: 16px;
     }
 }
+
+/* Sección de empresas atendidas */
+.empresas-servicio {
+    padding: 40px 0;
+    background: #f7f7f7;
+    text-align: center;
+}
+.empresas-servicio h2 {
+    margin-bottom: 24px;
+    font-size: 2rem;
+    color: #222;
+}
+.empresas-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+.empresa-logo {
+    width: 160px;
+    height: auto;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.08));
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+.empresa-logo:hover {
+    transform: scale(1.05);
+}
