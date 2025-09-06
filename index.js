@@ -10,7 +10,7 @@ const CONFIG = {
     mailSubject: "Solicitud de cotización — JFG",
 
     // Dirección / RNC / Redes
-    address: "Completar",
+    address: "Alma Rosa I, Santo Domingo, RD",
     rnc: "—",
     instagramUrl: "https://www.instagram.com/plantasindustriales_jfg/"
 };
