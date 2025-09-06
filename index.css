@@ -518,9 +518,6 @@ footer .row {
 
 /* Extra Small Mobile */
 @media (max-width: 480px) {
-    .logo b {
-        display: none;
-    }
 
     .nav a.btn {
         padding: 8px 12px;
